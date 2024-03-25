@@ -5,7 +5,7 @@ export function NavBar () {
         <div className='text-2xl font-bold'>
             Portfolio<span className='text-orange'>.</span>
         </div>
-        <div className='flex gap-3 text-sm items-center'>
+        <div className='flex gap-3 text-sm items-center sm:gap-8'>
             <a href=''>Home</a>
             <a href=''>Skills</a>
             <a href=''>Projects</a>

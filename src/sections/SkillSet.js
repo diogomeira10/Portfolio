@@ -14,7 +14,7 @@ export function SkillSet() {
         {
             icon: FrontendIcon,
             title: 'Frontend Development',
-            content: 'I specialize in sleek and user-friendly React.js frontend development, turning your web dreams into reality!'
+            content: 'I\'m your go-to person for React.js frontend development. I specialize in crafting sleek and user-friendly interfaces that pack a punch. Let\'s collaborate and turn your web dreams into reality!'
         },
         {
             icon: BackendIcon,
@@ -37,7 +37,7 @@ export function SkillSet() {
 
     return (
         <div>
-            <div className='text-orange font-bold mb-6 mt-10 text-xl'>SkillSet<span className='text-white'>.</span></div>
+            <div className='text-orange font-bold mb-6 mt-10 text-3xl'>SkillSet<span className='text-white'>.</span></div>
             <div className='flex flex-wrap justify-around gap-3'>
             {renderedData}
             </div>

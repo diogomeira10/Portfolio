@@ -29,3 +29,8 @@ code {
   background: linear-gradient(20deg, rgba(236,72,153,1) 0%, rgba(248,113,113,1) 50%);
 }
  */
+
+ /* Adjust placeholder text size */
+input::placeholder, textarea::placeholder {
+  font-size: 0.8em; /* Change this value to adjust the placeholder text size */
+}

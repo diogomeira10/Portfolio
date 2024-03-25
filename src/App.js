@@ -3,6 +3,7 @@ import { Intro } from "./sections/Intro";
 import { SkillSet } from "./sections/SkillSet";
 import { TechStack } from "./sections/TechStack";
 import { Projects } from "./sections/Projects";
+import { Contact } from "./sections/Contact";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <SkillSet /> 
       <TechStack />
       <Projects />
+      <Contact />
     </div>
   );
 }
