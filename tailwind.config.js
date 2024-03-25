@@ -10,7 +10,7 @@ module.exports = {
         orange: '#CD773A',
         pink:'#F87171',
         white: '#ffffff',
-        contrast: '#EC4899',
+        contrast: '#24201D',
       },
     
     },
