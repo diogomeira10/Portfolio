@@ -7,7 +7,7 @@ export function Projects() {
 
     
     return <div>
-        <div className='text-orange font-bold mb-10 mt-10 text-3xl'>Projects<span className='text-white'>.</span></div>
+        <div className='text-orange font-bold mb-10 mt-10 text-3xl lg:text-4xl lg:pb-10'>Projects<span className='text-white'>.</span></div>
         <div className=''>
             <HashTraining />
             <TimeTrack />

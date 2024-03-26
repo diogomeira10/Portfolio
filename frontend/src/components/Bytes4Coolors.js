@@ -5,11 +5,11 @@ import { ArrowButton } from './ArrowButton'
 
 
 export const BytesFourCoolors = () => {
-    return <div className='flex flex-wrap mb-16'>
+    return <div className='flex flex-wrap mb-16 lg:flex-nowrap'>
         <div className='mb-4'>
-            <img className='mb-4 h-6' src={Logo} alt='HashTraining Logo' />
-            <div className='mb-4 text-lg font-bold'>Generate a new color palette</div>
-            <div className='text-sm'>Elevate your creativity with this Color Palette app! Generate five new colors with each click, lock your favorites, and easily copy their values.  </div>
+            <img className='mb-4 h-6 lg:h-8' src={Logo} alt='HashTraining Logo' />
+            <div className='mb-4 text-lg font-bold lg:text-2xl'>Generate a new color palette</div>
+            <div className='text-sm lg:text-base'>Elevate your creativity with this Color Palette app! Generate five new colors with each click, lock your favorites, and easily copy their values.  </div>
             <div className='sm:mt-6'>
                 <div className='mt-6'>
                     <ArrowButton />

@@ -1,5 +1,5 @@
 export const SkillCard = ({icon, title, content}) => {
-    return <div className='flex flex-col gap-2 w-full h-96 p-4 bg-contrast'>
+    return <div className='flex flex-col gap-2 w-full h-96 p-4 bg-contrast lg:w-80'>
         <div className='pb-3'>
         <img className='w-20 mb-6' src={icon} />
 

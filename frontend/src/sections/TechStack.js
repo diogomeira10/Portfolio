@@ -68,7 +68,7 @@ export function TechStack() {
 
 
     return <div>
-        <div className='text-orange font-bold mb-10 mt-10 text-3xl'>TechStack<span className='text-white'>.</span></div>
+        <div className='text-orange font-bold mb-10 mt-10 text-3xl lg:text-4xl'>TechStack<span className='text-white'>.</span></div>
         <div className='flex flex-wrap justify-around '>
             {renderedStack}
         </div>
