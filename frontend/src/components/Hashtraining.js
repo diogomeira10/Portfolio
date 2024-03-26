@@ -14,9 +14,9 @@ export const HashTraining = () => {
                 <ArrowButton />
             </div>
         </div>
-        <div className='flex gap-2 justify-around w-full'>
-            <img className='w-1/2 lg:w-56' src={HashTraining1} alt='HashTraining feed picture' />
-            <img className='w-1/2 lg:w-56' src={HashTraining2} alt='HashTraining suggestions picture' />
+        <div className='flex gap-2 justify-around w-full lg:justify-center lg:gap-6'>
+            <img className='w-1/2 lg:w-56 md:w-72' src={HashTraining1} alt='HashTraining feed picture' />
+            <img className='w-1/2 lg:w-56 md:w-72' src={HashTraining2} alt='HashTraining suggestions picture' />
         </div>
     </div>
-}
+} 

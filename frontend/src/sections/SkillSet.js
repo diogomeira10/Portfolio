@@ -37,7 +37,7 @@ export function SkillSet() {
 
     return (
         <div>
-            <div className='text-orange font-bold mb-6 mt-10 text-3xl lg:text-4xl'>SkillSet<span className='text-white'>.</span></div>
+            <div className='text-orange font-bold mb-6 mt-10 text-3xl lg:text-4xl lg:mb-20'>SkillSet<span className='text-white'>.</span></div>
             <div className='flex flex-wrap justify-around gap-3'>
             {renderedData}
             </div>

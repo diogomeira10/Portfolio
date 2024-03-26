@@ -15,7 +15,7 @@
 body {
   margin: 0 1em;
   font-family: "Montserrat", sans-serif;
-  background-color: var(--backround)
+  background-color: var(--backround);
 }
 
 code {
@@ -33,4 +33,9 @@ code {
  /* Adjust placeholder text size */
 input::placeholder, textarea::placeholder {
   font-size: 0.8em; /* Change this value to adjust the placeholder text size */
+}
+
+.error {
+  border: 2px solid #e7195a;
+  color: #e7195a
 }
