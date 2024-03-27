@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 :root {
   --backround: #1C1A19;
   --orange: #CD773A
@@ -18,17 +23,11 @@ body {
   background-color: var(--backround);
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-/* button {
-  border-radius: 0.3em;
-  padding: 0.2em;
-  background: linear-gradient(20deg, rgba(236,72,153,1) 0%, rgba(248,113,113,1) 50%);
-}
- */
 
  /* Adjust placeholder text size */
 input::placeholder, textarea::placeholder {

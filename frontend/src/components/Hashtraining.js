@@ -15,8 +15,8 @@ export const HashTraining = () => {
             </div>
         </div>
         <div className='flex gap-2 justify-around w-full lg:justify-center lg:gap-6'>
-            <img className='w-1/2 lg:w-56 md:w-72' src={HashTraining1} alt='HashTraining feed picture' />
-            <img className='w-1/2 lg:w-56 md:w-72' src={HashTraining2} alt='HashTraining suggestions picture' />
+            <img className='w-1/2 lg:w-56 md:w-72' src={HashTraining1} alt='HashTraining feed' />
+            <img className='w-1/2 lg:w-56 md:w-72' src={HashTraining2} alt='HashTraining suggestions' />
         </div>
     </div>
 } 

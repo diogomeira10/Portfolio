@@ -19,7 +19,7 @@ export const BytesFourCoolors = () => {
             </div>
         </div>
         <div className='flex justify-center w-full'>
-            <img className='w-96' src={Bytes4Coolors} alt='Colors picture' />
+            <img className='w-96' src={Bytes4Coolors} alt='Colors' />
         </div>
     </div>
 }
