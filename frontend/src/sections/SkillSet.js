@@ -14,12 +14,12 @@ export function SkillSet() {
         {
             icon: FrontendIcon,
             title: 'Frontend Development',
-            content: 'I\'m your go-to person for React.js frontend development. I specialize in crafting sleek and user-friendly interfaces that pack a punch. Let\'s collaborate and turn your web dreams into reality!'
+            content: 'I\'m your top choice for React.js frontend development. With a focus on creating polished and intuitive interfaces, I\'m here to bring your web projects to life. Let\'s work together to make your digital aspirations a professional reality!'
         },
         {
             icon: BackendIcon,
             title: 'Backend Development',
-            content: 'Crafting robust backend solutions for web applications using MERN. Let\'s turn your ideas into reality with efficient code.'
+            content: 'Crafting robust backend solutions for web applications using Express. Let\'s turn your ideas into reality with efficient code.'
         },
         {
             icon: GithubIcon,
