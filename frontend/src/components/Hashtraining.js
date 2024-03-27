@@ -1,7 +1,7 @@
 import HashTraining1 from '../assets/Projects/HashTraining-1.svg'
 import HashTraining2 from '../assets/Projects/HashTraining-2.svg'
 import HashTraingLogo from '../assets/Projects/HashTraining-Logo.svg'
-import { ArrowButton } from './ArrowButton'
+// import { ArrowButton } from './ArrowButton'
 
 
 export const HashTraining = () => {
