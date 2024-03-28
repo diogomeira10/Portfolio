@@ -12,8 +12,6 @@ export function Contact() {
     const [success, setSuccess] = useState(null)
 
 
-
-
     const handleNameChange = (e) => {
         setName(e.target.value)
     }
@@ -26,7 +24,7 @@ export function Contact() {
 
     const handleSendMessage = async () => {
         try {
-            const response = await fetch('/api/messages/createMessage', {
+            const response = await fetch('https://portfolio-yxit.onrender.com/api/messages/createMessage', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
