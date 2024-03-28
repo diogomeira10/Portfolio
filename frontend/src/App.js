@@ -8,7 +8,7 @@ import { Contact } from "./sections/Contact";
 
 function App() {
   return (
-    <div className="text-white xl:px-5">
+    <div className="text-white xl:px-5 2xl:px-28">
       <NavBar />
       <Intro />
       <SkillSet /> 
