@@ -10,6 +10,7 @@ import JS from '../assets/TechStack/JS-Logo3.svg'
 import MongoDB from '../assets/TechStack/MongoDB-Logo.svg'
 import Tailwind from '../assets/TechStack/Tailwind-Logo.svg'
 import ReactLogo from '../assets/TechStack/React-Logo.svg'
+import NodeJS from '../assets/TechStack/NodeJS-Logo.svg'
 
 export function TechStack() {
 
@@ -55,6 +56,12 @@ export function TechStack() {
             skill: 'Github',
             alt: 'Github Logo'
         },
+        {
+            logo: NodeJS,
+            skill: 'Node.js',
+            alt: 'Nodejs Logo'
+        }
+
     ];
     
     

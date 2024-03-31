@@ -59,8 +59,8 @@ export function Contact() {
     }
 
 
-    return <div id='contact'>
-        <div className='text-orange font-bold mb-10 mt-10 text-3xl'>Contact<span className='text-white'>.</span></div>
+    return <div id='contact' className='mb-20'>
+        <div className='text-orange font-bold mb-10 mt-10 text-3xl'>Contact Me<span className='text-white'>.</span></div>
         <div className='bg-contrast rounded-lg p-4 lg:flex lg:flex-reverse lg:justify-around md:flex md:justify-around'>
             <form onSubmit={handleFormSubmit} className='flex flex-col gap-2 mb-8 lg:w-96'>
                 <label>Name</label>
