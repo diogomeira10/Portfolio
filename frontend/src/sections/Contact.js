@@ -77,7 +77,7 @@ export function Contact() {
                     <input type='email' placeholder='Enter your email' className={`text-background font-medium pl-1 rounded ${emptyFields.includes('email') ? 'error' : ''}`} value={email} onChange={handleEmailChange} />
                     <label>Message</label>
                     <textarea placeholder='Enter your message' className={`text-background font-medium pl-1 rounded h-24 text-left ${emptyFields.includes('message') ? 'error' : ''}`} type='text' value={message} onChange={handleMessageChange} />
-                    <div className='flex justify-between md:gap-2'>
+                    <div className='flex justify-between md:gap-2 '>
                         <Button type='submit' classNames='w-20 mt-5'>Send</Button>
                         {error && <div className='mt-5 error rounded p-2'>{error}</div>}
                         {success && <div className='mt-5 border text-green-500 border-green-500 rounded p-2'>Message sent successfully</div>}
