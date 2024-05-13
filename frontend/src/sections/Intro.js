@@ -21,9 +21,9 @@ export function Intro() {
                             handleFirstAnimationComplete
                         ]}
                         wrapper="div"
-                        cursor={true}
                         repeat={Infinity}
                         speed={60}
+                        cursor={false}
                         style={{
                             fontSize: '1em',
                             color: 'white',
@@ -40,9 +40,9 @@ export function Intro() {
                                 1000, // Waits for 1 second
                             ]}
                             wrapper="div"
-                            cursor={true}
                             repeat={Infinity}
                             speed={75}
+                            cursor={false}
                             style={{
                                 fontSize: '1em',
                                 color: 'white',

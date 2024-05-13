@@ -10,11 +10,9 @@ html {
 
 :root {
   --backround: #1C1A19;
-  --orange: #CD773A
-  --white: #ffffff;
-  --contrast : #EC4899
-  --gradient: linear-gradient(to right, #EC4899, #F87171);
-  --textAll : #8D98CD
+  --orange: #CD773A --white: #ffffff;
+  --contrast: #EC4899 --gradient: linear-gradient(to right, #EC4899, #F87171);
+  --textAll: #8D98CD
 }
 
 body {
@@ -29,12 +27,22 @@ code {
     monospace;
 }
 
- /* Adjust placeholder text size */
-input::placeholder, textarea::placeholder {
-  font-size: 0.8em; /* Change this value to adjust the placeholder text size */
+/* Adjust placeholder text size */
+input::placeholder,
+textarea::placeholder {
+  font-size: 0.8em;
+  /* Change this value to adjust the placeholder text size */
 }
 
 .error {
   border: 2px solid #e7195a;
   color: #e7195a
+}
+
+.openai {
+  font-family: Montserrat, sans-serif;
+  width: 30px;
+  aspect-ratio: auto 30 / 30;
+  height: 30px;
+  filter: invert(100%);
 }

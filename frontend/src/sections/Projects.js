@@ -1,5 +1,5 @@
 import { HashTraining } from "../components/Hashtraining"
-import {BytesFourCoolors} from '../components/Bytes4Coolors'
+import { ChatBot } from "../components/ChatBot"
 import { TimeTrack } from "../components/TimeTrack"
 
 
@@ -10,7 +10,7 @@ export function Projects() {
         <div className=''>
             <HashTraining />
             <TimeTrack />
-            <BytesFourCoolors />
+            <ChatBot />
         </div>
     </div>
 }
