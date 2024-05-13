@@ -11,6 +11,8 @@ import MongoDB from '../assets/TechStack/MongoDB-Logo.svg'
 import Tailwind from '../assets/TechStack/Tailwind-Logo.svg'
 import ReactLogo from '../assets/TechStack/React-Logo.svg'
 import NodeJS from '../assets/TechStack/NodeJS-Logo.svg'
+import NextJS from '../assets/TechStack/nextjs.svg'
+import TS from '../assets/TechStack/typescript.svg'
 
 export function TechStack() {
 
@@ -37,9 +39,20 @@ export function TechStack() {
             alt: 'React Logo'
         },
         {
+            logo: TS,
+            skill: 'Typescript',
+            alt: 'Typescript Logo',
+        },
+        {
             logo: Tailwind,
             skill: 'TailwindCSS',
             alt: 'TailwindCSS Logo'
+        },
+        {
+            logo: NextJS,
+            skill: 'Next.js',
+            alt: 'Next.js Logo',
+            className: 'filter invert'
         },
         {
             logo: Express,
@@ -60,14 +73,14 @@ export function TechStack() {
             logo: NodeJS,
             skill: 'Node.js',
             alt: 'Nodejs Logo'
-        }
+        },
 
     ];
-    
-    
+
+
 
     const renderedStack = stack.map((skill, index) => {
-        return <TechCard key={index} logo={skill.logo} skill={skill.skill} alt={skill.alt}/>
+        return <TechCard key={index} logo={skill.logo} skill={skill.skill} alt={skill.alt} className={skill.className} />
     })
 
 
